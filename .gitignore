@@ -2,12 +2,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Unit test
-.cache
-.pytest_cache/
-.coverage
-.coverage.*
-
 # PyBuilder
 .pybuilder/
 target/
