@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unit test
+.cache
+.pytest_cache/
+.coverage
+.coverage.*
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Environments
+.venv
+venv/
+
+# IDE
+.vscode/
+.idea/
+.history/
+*.vsix
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trashes
+Thumbs.db
+
+# logs
+logs/
+*.log

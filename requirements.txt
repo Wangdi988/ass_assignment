@@ -1,0 +1,38 @@
+# Core dependencies
+fastapi
+uvicorn[standard]
+gunicorn
+pydantic
+pydantic-settings
+python-multipart
+
+# Redis cache
+redis[hiredis]
+
+# Authentication and security
+python-jose[cryptography]
+passlib[bcrypt]
+
+# Utilities
+tenacity
+loguru
+httpx
+asgi-lifespan
+
+# Development & testing dependencies
+pytest
+
+# additional library
+pandas
+numpy
+pyjwt
+locust
+
+
+# test 
+locust
+anyio
+pytest-asyncio
+pytest-tornasync
+pytest-trio
+# pytest-twisted
