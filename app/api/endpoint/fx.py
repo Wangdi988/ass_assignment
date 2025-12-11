@@ -26,8 +26,8 @@ async def read_fx(
         *,
         data_in: GetFx,
         redis: Redis = Depends(get_redis),
-        # current_user: dict = Depends(get_current_user),
-        # _ = Depends(validate_signature_dependency),
+        current_user: dict = Depends(get_current_user),
+        _ = Depends(validate_signature_dependency),
 ) -> StandardResponse:
     """
     To get requested fx rate.
